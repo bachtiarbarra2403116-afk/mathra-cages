@@ -8,7 +8,7 @@
 //   node build.mjs                         -> bangun ulang saja
 //
 // Sumber kebenaran = file  daftar-kode.csv  (kode asli, catatan, tanggal, status).
-// SIMPAN & JANGAN UNGGAH file itu. Yang diunggah hanya  dist/index.html.
+// SIMPAN & JANGAN UNGGAH file itu. Unggah seluruh isi folder dist, termasuk Image/icon.png.
 // =====================================================================
 import { randomBytes, randomInt, pbkdf2Sync, createCipheriv } from "node:crypto";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
